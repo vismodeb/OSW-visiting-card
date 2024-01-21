@@ -1,0 +1,69 @@
+/* 
+  Template Name: 
+  Template URI: https://
+  Author Name: 
+  Author URI: https://
+  Version: 1.0.0
+  Description: This is
+  Tags: html, Css, Bootstrap, javaScript, jQuery
+*/
+
+/* google fonts */
+
+
+/* Default Css 
+**************vismo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 14px;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
