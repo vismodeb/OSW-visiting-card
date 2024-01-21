@@ -9,7 +9,7 @@
 */
 
 /* google fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
 
 /* Default Css 
 **************vismo*/
@@ -28,6 +28,8 @@ html {
 body {
   font-size: 14px;
 	font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -67,6 +69,29 @@ img {
   background: #4f5867;
 }
 
+.text{
+  font-size: 18px;
+  font-weight: 500;
+  color: #413401;
+  margin-bottom: 24px;
+}
+
+.text_20{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #413401;
+  margin-bottom: 24px;
+}
+
+.text_36{
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  color: #ff7201;
+  margin-bottom: 24px;
+}
+
 /* start header css 
 *****************************/
 .header_top{
@@ -101,8 +126,45 @@ img {
   margin-right: 6px;
 }
 
-/* start  css 
-*****************************/
+/* start Visiting information css 
+***********************************/
+.visiting_information{
+  padding: 60px 0;
+  max-width: 1600px;
+  margin: auto;
+  height: auto;
+}
+.NFC_QR{
+  padding: 80px 0;
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  height: auto;
+}
+.nfc_img_1{
+  width: 50%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nfc_img_2{
+  width: 50%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nfc_img_1 img,
+.nfc_img_2 img{
+  max-width: 100%;
+  transition: 1s ease;
+}
+.nfc_img_1 img:hover,
+.nfc_img_2 img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
 /* start  css 
 *****************************/
 /* start  css 
