@@ -44,7 +44,6 @@ ul, ol {
 
 a,a:hover{
   text-decoration: none;
-  /* color: inherit; */
 }
 
 img {
@@ -71,25 +70,27 @@ img {
 /* start header css 
 *****************************/
 .header_top{
+  max-width: 1600px;
+  margin: auto;
+  height: auto;
   padding: 10px 0;
 }
 .header_top_logo{
   max-width: 180px;
   margin: auto;
 }
-.header_banner{
-  max-width: 1600px;
-  margin: auto;
-  height: auto;
-}
 /* start menu section */
 .header_menu{
   padding: 20px;
   background: #1e293b;;
 }
+.header_menu .container-fluid{
+  max-width: 1200px;
+  margin: auto;
+}
 .menu_area ul{
   display: flex;
-  gap: 16px;
+  gap: 20px;
 }
 .menu_area ul li{
   width: 100%;
