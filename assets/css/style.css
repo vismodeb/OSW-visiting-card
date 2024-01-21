@@ -44,17 +44,62 @@ ul, ol {
 
 a,a:hover{
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
 }
 
 img {
   width: 100%;
 }
 
+.btn1{
+  width: 100%;
+  padding: 30px 10px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background: #384356;
+  display: inline-block;
+  border: none;
+  transition: all 360ms ease;
+}
 
+.btn1:hover{
+  background: #4f5867;
+}
 
-/* start  css 
+/* start header css 
 *****************************/
+.header_top{
+  padding: 10px 0;
+}
+.header_top_logo{
+  max-width: 180px;
+  margin: auto;
+}
+.header_banner{
+  max-width: 1600px;
+  margin: auto;
+  height: auto;
+}
+/* start menu section */
+.header_menu{
+  padding: 20px;
+  background: #1e293b;;
+}
+.menu_area ul{
+  display: flex;
+  gap: 16px;
+}
+.menu_area ul li{
+  width: 100%;
+}
+.menu_area ul li a .m_icon{
+  color: #ff8400;
+  font-size: 24px;
+  margin-right: 6px;
+}
+
 /* start  css 
 *****************************/
 /* start  css 
