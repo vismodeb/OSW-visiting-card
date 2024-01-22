@@ -150,6 +150,10 @@
     padding: 12px 6px;
     font-size: 12px;
   }
+  .NFC_technology_item {
+    margin-top: 40px;
+    padding: 30px 18px;
+  }
 }
 
 @media (max-width: 367px) {
