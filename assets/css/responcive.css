@@ -26,6 +26,15 @@
     font-size: 30px;
     margin-bottom: 26px;
   }
+  .text_border::after {
+    display: none;
+  }
+  .NFC_video_contain h2 {
+    line-height: 48px;
+  }
+  .NFC_btn {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -42,6 +51,10 @@
   .text_36 {
     font-size: 25px;
   }
+  .NFC_video_contain h2 {
+    line-height: 40px;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -78,7 +91,7 @@
     margin-bottom: 18px;
   }
   .visiting_information {
-    padding: 40px 0;
+    padding: 40px 0 14px 0;
   }
   .NFC_QR {
     padding: 50px 0;
@@ -93,6 +106,19 @@
   }
   .card_words_single {
     gap: 12px;
+  }
+  .NFC_video_contain h2 {
+    line-height: 36px;
+  }
+  .NFC_btn {
+    margin-top: 60px;
+  }
+  .btn2 {
+    padding: 12px 26px;
+    font-size: 16px;
+  }
+  .NFC_video_card {
+    padding: 25px 0;
   }
 }
 

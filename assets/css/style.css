@@ -174,8 +174,59 @@ img {
   color: #ff7201;
 }
 
-/* start  css 
+/* start NFC video card css 
 *****************************/
+.NFC_video_card{
+  padding: 50px 0;
+  background: #F5F5F5;
+}
+.NFC_video_contain{
+  padding: 26px 20px;
+  background: #124374;
+}
+.NFC_video_contain h4{
+  color: #fff;
+}
+.text_border{
+  margin-bottom: 60px;
+  position: relative;
+}
+.text_border::after {
+  content: '';
+  position: absolute;
+  left: 45%;
+  bottom: -20px;
+  width: 10%;
+  height: 4px;
+  text-align: center;
+  background: #f97e00;
+}
+.NFC_video_contain h2{
+  color: #fff;
+  line-height: 56px;
+}
+.NFC_video_contain p{
+  color: #fff;
+  text-align: center;
+}
+.NFC_btn{
+  margin-top: 150px;
+  text-align: center;
+}
+.btn2{
+  text-align: center;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #ff8400;
+  border-radius: 2px;
+  transition: all 360ms ease;
+}
+.btn2:hover{
+  padding: 18px 32px;
+}
+
 /* start  css 
 *****************************/
 /* start  css 
