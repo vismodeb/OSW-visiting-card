@@ -14,6 +14,18 @@
   .menu_margin_t{
     margin-top: 20px;
   }
+  .text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .text_20 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .text_36 {
+    font-size: 30px;
+    margin-bottom: 26px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -26,6 +38,9 @@
   }
   .menu_margin_t {
     margin-top: 16px;
+  }
+  .text_36 {
+    font-size: 25px;
   }
 }
 
@@ -49,6 +64,35 @@
   }
   .menu_margin_t {
     margin-top: 10px;
+  }
+  .text{
+    margin-bottom: 10px;
+  }
+  .text_20 {
+    font-size: 16px;
+    margin-bottom: 14px;
+    line-height: 23px;
+  }
+  .text_36 {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+  .visiting_information {
+    padding: 40px 0;
+  }
+  .NFC_QR {
+    padding: 50px 0;
+    gap: 14px;
+  }
+  .nfc_img_1 {
+    padding: 6px;
+  }
+  .card_icon {
+    width: 26px;
+    height: 30px;
+  }
+  .card_words_single {
+    gap: 12px;
   }
 }
 

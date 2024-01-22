@@ -72,7 +72,7 @@ img {
 .text{
   font-size: 18px;
   font-weight: 500;
-  color: #413401;
+  color: #9e4904;
   margin-bottom: 24px;
 }
 
@@ -80,7 +80,7 @@ img {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
-  color: #413401;
+  color: #9e4904;
   margin-bottom: 24px;
 }
 
@@ -89,7 +89,7 @@ img {
   font-weight: 600;
   text-align: center;
   color: #ff7201;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 /* start header css 
@@ -163,6 +163,15 @@ img {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
   transition: 1s ease;
+}
+.card_words_single{
+  display: flex;
+  gap: 20px;
+}
+.card_icon{
+  width: 40px;
+  height: 40px;
+  color: #ff7201;
 }
 
 /* start  css 
