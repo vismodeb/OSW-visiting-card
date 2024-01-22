@@ -73,7 +73,7 @@ img {
   font-size: 18px;
   font-weight: 500;
   color: #9e4904;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
 .text_20{
@@ -227,8 +227,23 @@ img {
   padding: 18px 32px;
 }
 
-/* start  css 
+/* start what_NFC_card css 
 *****************************/
+.what_NFC_card{
+  padding: 60px 0;
+}
+.what_NFC_card .container-fluid{
+  max-width: 1600px;
+  margin: auto;
+  height: auto;
+}
+.NFC_card_words{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
 /* start  css 
 *****************************/
 /* start  css 

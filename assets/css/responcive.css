@@ -1,4 +1,8 @@
-@media (max-width: 1400px) {}
+@media (max-width: 1400px) {
+  .container-fluid{
+    padding: 0 15px;
+  }
+}
 
 @media (max-width: 1200px) {
   .btn1 {
@@ -16,7 +20,6 @@
   }
   .text {
     font-size: 16px;
-    margin-bottom: 20px;
   }
   .text_20 {
     font-size: 18px;
@@ -78,9 +81,6 @@
   .menu_margin_t {
     margin-top: 10px;
   }
-  .text{
-    margin-bottom: 10px;
-  }
   .text_20 {
     font-size: 16px;
     margin-bottom: 14px;
@@ -119,6 +119,9 @@
   }
   .NFC_video_card {
     padding: 25px 0;
+  }
+  .what_NFC_card {
+    padding: 40px 0;
   }
 }
 
