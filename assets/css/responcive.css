@@ -38,6 +38,12 @@
   .NFC_btn {
     margin-top: 100px;
   }
+  .what_NFC_card {
+    padding: 46px 0;
+  }
+  .NFC_free_trial {
+    padding: 50px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -56,6 +62,9 @@
   }
   .NFC_video_contain h2 {
     line-height: 40px;
+  }
+  .NFC_free_trial h2 {
+    line-height: 38px;
   }
 
 }
@@ -87,7 +96,6 @@
     line-height: 23px;
   }
   .text_36 {
-    font-size: 22px;
     margin-bottom: 18px;
   }
   .visiting_information {
@@ -99,13 +107,6 @@
   }
   .nfc_img_1 {
     padding: 6px;
-  }
-  .card_icon {
-    width: 26px;
-    height: 30px;
-  }
-  .card_words_single {
-    gap: 12px;
   }
   .NFC_video_contain h2 {
     line-height: 36px;
@@ -122,6 +123,19 @@
   }
   .what_NFC_card {
     padding: 40px 0;
+  }
+  .NFC_free_trial {
+    padding: 36px 0;
+  }
+  .free_trial_btn {
+    margin-top: 30px;
+  }
+  .free_trial_socil_icon {
+    margin-top: 26px;
+  }
+  .free_trial_btn .btn2 {
+    font-size: 14px;
+    padding: 10px 18px;
   }
 }
 
