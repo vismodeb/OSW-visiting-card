@@ -66,6 +66,9 @@
   .NFC_free_trial h2 {
     line-height: 38px;
   }
+  .margin_top{
+    margin-top: 40px;
+  }
 
 }
 
@@ -94,6 +97,11 @@
     font-size: 16px;
     margin-bottom: 14px;
     line-height: 23px;
+  }
+  .text_26 {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 10px;
   }
   .text_36 {
     margin-bottom: 18px;
@@ -136,6 +144,12 @@
   .free_trial_btn .btn2 {
     font-size: 14px;
     padding: 10px 18px;
+  }
+  .NFC_card_item {
+    padding: 16px;
+  }
+  .nfc_img_contain p {
+    font-size: 22px;
   }
 }
 
