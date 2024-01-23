@@ -53,6 +53,9 @@
     gap: 15px;
     margin-top: 30px;
   }
+  .whatsApp_contain {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
@@ -168,6 +171,13 @@
   }
   .offices_id_card_heading {
     margin-top: 50px;
+  }
+  .whatsApp_contain {
+    gap: 18px;
+  }
+  .whatsapp_item h2 {
+    margin-bottom: 8px;
+    line-height: 36px;
   }
 }
 

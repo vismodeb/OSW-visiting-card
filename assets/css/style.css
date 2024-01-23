@@ -393,7 +393,7 @@ img {
   margin-bottom: 0;
 }
 .btn_d{
-  color: #000000;
+  color: #ff9500;
   background: #fff;
   font-weight: 600;
   max-width: 200px;
@@ -431,5 +431,31 @@ img {
   margin-top: 50px;
 }
 
-/* start  css 
+/* start whatsApp css 
 *****************************/
+.whatsApp_contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.whatsapp_item h2{
+  color: #ffffff;
+  margin-bottom: 14px;
+  line-height: 50px;
+  text-align: start;
+}
+.whatsapp_item p{
+  color: #ffffff;
+}
+.btn_wa{
+  color: #ff9500;
+  background: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 400px;
+}
+.btn_wa:hover{
+  color: #ffffff;
+}
