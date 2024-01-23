@@ -44,6 +44,14 @@
   .NFC_free_trial {
     padding: 50px 0;
   }
+  .card_gallery {
+    padding: 50px 0;
+  }
+  .all_card_gallery{
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -71,6 +79,9 @@
   }
   .btn_d {
     font-size: 18px;
+  }
+  .all_card_gallery{
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
@@ -177,11 +188,19 @@
   .btn_d {
     font-size: 16px;
   }
+  .all_card_gallery{
+    gap: 15px;
+    margin-top: 12px;
+  }
 }
 
 @media (max-width: 367px) {
   .header_menu {
     padding: 18px 6px;
     background: #1e293b;
+  }
+  .all_card_gallery {
+    gap: 10px;
+    margin-top: 0px;
   }
 }
