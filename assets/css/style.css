@@ -98,6 +98,7 @@ img {
   text-align: center;
   color: #ff7201;
   margin-bottom: 28px;
+  line-height: 38px;
 }
 
 /* start header css 
@@ -375,5 +376,32 @@ img {
   width: 100%;
   height: 100%;
 }
+/* start discount css 
+*****************************/
+.discount_area{
+  padding: 60px 0;
+  background: #ff9500;
+}
+.discount_contain {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.discount_contain h2{
+  color: #fff;
+  margin-bottom: 0;
+}
+.btn_d{
+  color: #000000;
+  background: #fff;
+  font-weight: 600;
+  max-width: 200px;
+  text-align: center;
+}
+.btn_d:hover{
+  color: #ffffff;
+}
+
 /* start  css 
 *****************************/

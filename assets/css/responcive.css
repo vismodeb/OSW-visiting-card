@@ -69,7 +69,9 @@
   .margin_top{
     margin-top: 40px;
   }
-
+  .btn_d {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -123,7 +125,7 @@
     padding: 25px 0;
   }
   .what_NFC_card {
-    padding: 40px 0;
+    padding: 40px 0 0 0;
   }
   .NFC_free_trial {
     padding: 36px 0;
@@ -143,6 +145,13 @@
   }
   .nfc_img_contain p {
     font-size: 22px;
+  }
+  .discount_contain {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .discount_area {
+    padding: 30px 0;
   }
 }
 
@@ -164,6 +173,9 @@
   }
   .header_menu .col-lg-6{
     padding: 0 4px;
+  }
+  .btn_d {
+    font-size: 16px;
   }
 }
 
