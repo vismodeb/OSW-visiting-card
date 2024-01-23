@@ -421,82 +421,15 @@ img {
   border: 1px solid rgb(136, 136, 136);
   transform: scale(1.03);
 }
-/* .image-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform-origin: left;
+.offices_id_card_heading{
+  margin-top: 80px;
 }
-.image-1 {
-  clip-path: polygon(0 0, 0 32%, 28% 0);
-  transform: translate(-10px, -10px);
-  transition: transform 300ms ease;
-  transform-origin: top;
-  .image-wrapper:hover & {
-    transform: translate(0,0);
-  }
+.offices_id_card{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+  margin-top: 50px;
 }
-.image-2 {
-  clip-path: polygon(28% 0, 0 32%, 0 100%, 17% 100%, 90% 0);
-  transform: translate(-30px, 5px);
-  transition: transform 300ms ease;
-  .image-wrapper:hover & {
-    transform: translate(0,0);
-  }
-}
-.image-3 {
-  clip-path: polygon(100% 0, 100% 65%, 74% 100%, 17% 100%, 90% 0);
-  transform: translate(-15px, -10px);
-  transition: transform 300ms ease;
-  .image-wrapper:hover & {
-    transform: translate(0,0);
-  }
-}
-.image-4 {
-  clip-path: polygon(100% 65%, 74% 100%, 100% 100%);
-  transform: translate(-32px, 5px);
-  transition: transform 300ms ease;
-  transform-origin: top;
-  .image-wrapper:hover & {
-    transform: translate(0,0);
-  }
-} */
-
-/* .image-10 {
-  clip-path: polygon(0 0, 0 32%, 28% 0);
-  transform: translate(-10px, -10px);
-  transition: transform 300ms ease;
-  transform-origin: top;
-  .image-wrapper:hover & {
-    transform: translate(0,0);
-  }
-}
-.image-20 {
-  clip-path: polygon(28% 0, 0 32%, 0 100%, 17% 100%, 90% 0);
-  transform: translate(-30px, 5px);
-  transition: transform 300ms ease;
-  .image-wrapper:hover & {
-    transform: translate(0,0);
-  }
-}
-.image-30 {
-  clip-path: polygon(100% 0, 100% 65%, 74% 100%, 17% 100%, 90% 0);
-  transform: translate(-15px, -10px);
-  transition: transform 300ms ease;
-  .image-wrapper:hover & {
-    transform: translate(0,0);
-  }
-}
-.image-40 {
-  clip-path: polygon(100% 65%, 74% 100%, 100% 100%);
-  transform: translate(-32px, 5px);
-  transition: transform 300ms ease;
-  transform-origin: top;
-  .image-wrapper:hover & {
-    transform: translate(0,0);
-  }
-} */
-
 
 /* start  css 
 *****************************/
