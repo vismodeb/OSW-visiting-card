@@ -1770,7 +1770,16 @@
 ***************************/
 
 @media (max-width: 576px) {
+  #timeline .timeline-movement .timeline-item .timeline-panel {
+    padding: 40px 20px 20px;
+  }
   #timeline {
     margin: 20px auto 0;
+  }
+  #timeline .timeline-movement .timeline-item .timeline-panel.credits  .timeline-panel-ul .righting-wrap {
+    text-align: center;
+  }
+  #timeline .timeline-movement .timeline-item .timeline-panel.debits  .timeline-panel-ul .righting-wrap {
+    text-align: center;
   }
 }
