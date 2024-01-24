@@ -477,3 +477,23 @@ img {
 .smart_visiting_card img:hover{
   transform: scale(1.1);
 }
+
+/* start NFC demo card profile css 
+*************************************/
+.NFC_demo_card_profile{
+  padding: 20px 0;
+}
+.single_card_gallery{
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn_profile {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 22px;
+}
+.profile_icon{
+  float: left;
+  margin-top: 3px;
+}
