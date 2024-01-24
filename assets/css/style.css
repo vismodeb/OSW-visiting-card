@@ -98,7 +98,7 @@ img {
   text-align: center;
   color: #ff7201;
   margin-bottom: 28px;
-  line-height: 38px;
+  line-height: 40px;
 }
 
 /* start header css 
@@ -496,4 +496,10 @@ img {
 .profile_icon{
   float: left;
   margin-top: 3px;
+}
+.image_wrapper_profile img{
+  transition: all 360ms ease;
+}
+.image_wrapper_profile:hover img{
+  transform: translateY(5px);
 }

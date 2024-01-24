@@ -76,13 +76,13 @@
     margin-top: 16px;
   }
   .text_36 {
-    font-size: 25px;
+    font-size: 28px;
   }
   .NFC_video_contain h2 {
     line-height: 40px;
   }
   .NFC_free_trial h2 {
-    line-height: 38px;
+    line-height: 40px;
   }
   .margin_top{
     margin-top: 40px;
@@ -133,9 +133,6 @@
   .nfc_img_1 {
     padding: 6px;
   }
-  .NFC_video_contain h2 {
-    line-height: 36px;
-  }
   .NFC_btn {
     margin-top: 60px;
   }
@@ -182,8 +179,8 @@
     gap: 18px;
   }
   .whatsapp_item h2 {
-    margin-bottom: 8px;
-    line-height: 36px;
+    margin-bottom: 14px;
+    line-height: 40px;
   }
   .smart_visiting_card img:hover{
     transform: scale(1.06);
@@ -222,6 +219,13 @@
   .profile_card_gallery{
     grid-template-columns: repeat(1,1fr);
     gap: 30px;
+  }
+  .smart_visiting_card {
+    padding: 36px 0 10px 0;
+  }
+  .btn_profile {
+    padding: 10px 30px;
+    font-weight: 600;
   }
 }
 
