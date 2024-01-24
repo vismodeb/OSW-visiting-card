@@ -106,6 +106,12 @@
   .all_card_gallery{
     grid-template-columns: repeat(2,1fr);
   }
+  .faq_visiting_card_area {
+    padding: 20px 0 40px 0;
+  }
+  .faq_heading {
+    padding: 40px 10px 0px 10px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -241,6 +247,10 @@
   }
   .margin_top {
     margin-top: 26px;
+  }
+  .visiting_faq .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    font-size: 16px;
+    line-height: 25px;
   }
 }
 
