@@ -56,6 +56,12 @@
   .whatsApp_contain {
     flex-direction: column;
   }
+  .smart_visiting_card {
+    max-width: 490px;
+  }
+  .smart_visiting_card img {
+    max-height: 430px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -178,6 +184,9 @@
   .whatsapp_item h2 {
     margin-bottom: 8px;
     line-height: 36px;
+  }
+  .smart_visiting_card img:hover{
+    transform: scale(1.06);
   }
 }
 
