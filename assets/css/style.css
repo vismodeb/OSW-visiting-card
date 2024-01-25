@@ -569,3 +569,34 @@ img {
   margin-bottom: 4px;
   color: #fff;
 }
+
+/* start mobile bottom nav 
+********************************/
+.mobile_bottom_nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 9999;
+}
+.bottom_manu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomf_login_btn,
+.bottom_signup_btn,
+.single_bottom_item{
+  width: 33.33333333%;
+}
+.single_bottom_item a{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 10px;
+  color: #fff;
+  background: #f97e00;
+}
