@@ -112,6 +112,12 @@
   .faq_heading {
     padding: 40px 10px 0px 10px;
   }
+  .NFC_QR {
+    padding: 40px 0 0 0;
+  }
+  .nfc_price_box0{
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -265,5 +271,8 @@
   }
   .all_card_gallery {
     margin-top: 0px;
+  }
+  .single_bottom_item a {
+    font-size: 12px;
   }
 }

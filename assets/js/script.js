@@ -49,3 +49,19 @@ $(document).ready(function(){
     });
     /* Change color of center aligned animated content small Circle  "END"
     ************************************/
+
+
+
+    // Fancybox Configuration image gallery popup
+    $('[data-fancybox="gallery"]').fancybox({
+        buttons: [
+        "slideShow",
+        "thumbs",
+        "zoom",
+        "fullScreen",
+        "share",
+        "close"
+        ],
+        loop: false,
+        protect: true
+    });

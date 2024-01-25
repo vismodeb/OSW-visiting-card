@@ -113,6 +113,7 @@ img {
   max-width: 180px;
   margin: auto;
 }
+
 /* start menu section */
 .header_menu{
   padding: 20px;
@@ -376,6 +377,7 @@ img {
   width: 100%;
   height: 100%;
 }
+
 /* start discount css 
 *****************************/
 .discount_area{
@@ -429,6 +431,25 @@ img {
   grid-template-columns: repeat(5,1fr);
   gap: 20px;
   margin-top: 50px;
+}
+.all_card_gallery .image-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 70%;
+  background: #ffffff;
+}
+.all_card_gallery .image-wrapper img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fancybox-image, .fancybox-spaceball {
+    padding: 44px;
 }
 
 /* start whatsApp css 
