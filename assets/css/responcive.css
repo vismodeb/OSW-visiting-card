@@ -74,6 +74,9 @@
   .order_bottom{
     order: 1;
   }
+  .your_order_top{
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 768px) {

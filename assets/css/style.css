@@ -51,7 +51,9 @@ a,a:hover{
 img {
   width: 100%;
 }
-
+button{
+  border: none;
+}
 .btn1{
   width: 100%;
   padding: 30px 10px;
@@ -647,4 +649,23 @@ img {
   margin-top: 20px;
   padding: 30px;
   background: #eceaea;
+}
+
+
+ /* Chrome, Safari, Edge, Opera  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ /* Firefox  */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
 }
