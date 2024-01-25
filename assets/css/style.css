@@ -110,7 +110,7 @@ img {
   padding: 10px 0;
 }
 .header_top_logo{
-  max-width: 180px;
+  max-width: 260px;
   margin: auto;
 }
 
@@ -620,4 +620,31 @@ img {
   padding: 10px;
   color: #fff;
   background: #f97e00;
+}
+
+/* start Enter your information 
+************************************/
+.enter_your_information{
+  padding: 0 0 60px 0;
+}
+.your_informatin_heading p{
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+  background: #f97e00;
+}
+.secured_checkout{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  color: #6e6e6e;
+  font-size: 16px;
+  font-weight: 600;
+}
+.your_information_contack{
+  margin-top: 20px;
+  padding: 30px;
+  background: #eceaea;
 }
