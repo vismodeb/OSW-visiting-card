@@ -624,6 +624,10 @@ button{
   background: #f97e00;
 }
 
+/*vismo**********************************************************************************************
+                                            ORDER PAGE CSS          
+***********************************************************************************************vismo*/
+
 /* start Enter your information 
 ************************************/
 .enter_your_information{
@@ -649,16 +653,16 @@ button{
   margin-top: 20px;
   padding: 30px;
   background: #eceaea;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
- /* Chrome, Safari, Edge, Opera  */
+/* Chrome, Safari, Edge, Opera  */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
- /* Firefox  */
+/* Firefox  */
 input[type=number] {
   -moz-appearance: textfield;
 }
