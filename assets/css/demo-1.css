@@ -1,3 +1,5 @@
+/* start profile demo area 
+*******************************/
 .our-team {
   padding: 30px 0 40px;
   margin-bottom: 30px;
@@ -88,10 +90,14 @@
 .about_text{
   padding: 16px 10px 0;
 }
+.about_text h2{
+  text-align: start;
+}
 .about_text p{
+  text-align: start;
   font-size: 18px;
-  max-width: 800px;
-  margin: 20px auto;
+  /* max-width: 800px; */
+  /* margin: 20px auto; */
 }
 
 /* start skills css 
