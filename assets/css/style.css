@@ -593,6 +593,21 @@ button{
   color: #fff;
 }
 
+/* start footre area css
+********************************/
+.footer_area{
+  border-top: 1px solid rgb(195, 195, 195);
+  padding: 40px 0;
+  background: rgb(229, 229, 229);
+}
+.footer_area p{
+  text-align: center;
+  font-size: 18px;
+}
+.footer_area a{
+  color: #f97e00;
+}
+
 /* start mobile bottom nav 
 ********************************/
 .mobile_bottom_nav{
@@ -622,6 +637,69 @@ button{
   padding: 10px;
   color: #fff;
   background: #f97e00;
+}
+
+/* start btn4 css
+*********************** */
+.all_card_view{
+  margin-top: 26px;
+  text-align: center;
+}
+.btn4 {
+  border: 2px solid #bebebe !important;
+  appearance: none;
+  background-color: #ffffff;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #ff0000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 15px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+.btn4:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #d8d8d8;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+.btn4:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+.btn4:after {
+  color: rgb(255, 255, 255) !important;
+  background-color: #FFFFFF;
+}
+.btn4 span {
+  z-index: 1;
+  position: relative;
 }
 
 /*vismo**********************************************************************************************
