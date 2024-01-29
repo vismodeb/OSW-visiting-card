@@ -1,0 +1,30 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {
+  .all_card_gallery{
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .all_card_gallery{
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .our-team .picture {
+    width: 37%;
+  }
+  .contact_info {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 450px) {}
+
+@media (max-width: 367px) {}
