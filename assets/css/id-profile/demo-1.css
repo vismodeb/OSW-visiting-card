@@ -269,8 +269,9 @@ button{
 }
 .product_contain{
   text-align: center;
-  border: 1px solid rgb(215, 215, 215);
+  border: 1px solid #636363;
   padding: 30px 14px 20px 14px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .product_contain h2{
   font-size: 24px;
@@ -360,19 +361,12 @@ button{
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.btn_product:hover::after /*lightup button*/ {
+.btn_product:hover::after{
 	top: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
 }
-.btn_product:nth-child(1)::before, /*chnage 1*/
-.btn_product:nth-child(1)::after {
-	background: #ff1f71;
-	box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
-		0 0 60px #ff1f71;
-}
-
 
 /* start footer area css
 ***************************/
@@ -380,7 +374,7 @@ button{
   margin-top: 10px;
   text-align: center;
   color: #ffffff;
-  padding: 20px 0;
+  padding: 20px 10px;
   background: #f89d00;
 }
 .footer_area a{
