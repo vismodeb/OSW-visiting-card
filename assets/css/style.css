@@ -484,24 +484,6 @@ button{
   color: #ffffff;
 }
 
-/* start visiting card css 
-*****************************/
-.smart_visiting_card{
-  padding: 50px 0;
-  max-width: 570px;
-  margin: auto;
-}
-.smart_visiting_card img{
-  padding: 10px;
-  max-height: 560px;
-  border-radius: 4px;
-  overflow: hidden;
-  transition: all 360ms ease;
-}
-.smart_visiting_card img:hover{
-  transform: scale(1.1);
-}
-
 /* start NFC demo card profile css 
 *************************************/
 .NFC_demo_card_profile{
