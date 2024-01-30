@@ -255,6 +255,10 @@ button{
     padding: 44px;
 }
 
+/* start Testimonials css 
+******************************/
+
+
 /* start products wraper css 
 ******************************/
 .products_wraper{
@@ -269,7 +273,9 @@ button{
 }
 .product_contain{
   text-align: center;
-  border: 1px solid #636363;
+  background: #1F1A36;
+  border: 1px solid #c6c6c6;
+  border-radius: 0 0 8px 8px;
   padding: 30px 14px 20px 14px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
