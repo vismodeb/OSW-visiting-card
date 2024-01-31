@@ -61,7 +61,7 @@ button{
   line-height: 40px;
   font-weight: 600;
   color: #ff7201;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 .container{
@@ -257,7 +257,31 @@ button{
 
 /* start Testimonials css 
 ******************************/
-
+.testimonial_contain{
+  text-align: center;
+  color: #fff;
+}
+.testimonial_contain img{
+  max-width: 120px;
+  margin: auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.testimonial_contain h2{
+  font-size: 28px;
+  margin: 10px 0 16px 0;
+}
+.testimonial_contain p{
+  margin-bottom: 20px;
+}
+.testimonial_contain ul li{
+  border: none;
+  color: #c98104;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 16px;
+}
 
 /* start products wraper css 
 ******************************/
