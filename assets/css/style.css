@@ -186,6 +186,9 @@ button{
   height: 40px;
   color: #ff7201;
 }
+.nfc_img_2.NFC_card_item img {
+  max-height: 453px;
+}
 
 /* start NFC video card css 
 *****************************/
